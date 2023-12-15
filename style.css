@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  padding: 50px;
+  height: 100vh;
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+div {
+  margin-top: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 5px 10px;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+
+.circle1 {
+  border-radius: 9999px;
+  background-color: aqua;
+}
+
+.wrap {
+  background-color: aquamarine;
+  height: auto;
+}
+
+#hereket {
+  width: 100px;
+  height: 50px;
+  background-color: green;
+}
+
+.movement {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  position: absolute;
+  right: 20px;
+  top: 400px;
+}
+
+#gizli {
+  height: 100px;
+  width: 200px;
+  background-color: black;
+}
+
+.hidden {
+  display: none;
+}/*# sourceMappingURL=style.css.map */
